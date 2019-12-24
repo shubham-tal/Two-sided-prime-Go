@@ -12,7 +12,7 @@ Install mux router using below command:
 ## Usage
 Command to run the api :
 ```
-go main.go
+go run main.go
 ```
 # API URL :
 ``` http://localhost:10000/isTwoSidedPrime/{number} ```
