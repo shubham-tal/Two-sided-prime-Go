@@ -6,16 +6,15 @@ Rest Api to find two-sided prime number written in go.
 
 Install go in your local system.
 Install mux router using below command:
-	```bash
-go get -u github.com/gorilla/mux
-```
+	``` go get -u github.com/gorilla/mux ```
+
 
 ## Usage
-To run the api :
+Command to run the api :
 ```
 go main.go
 ```
-API URL :
+# API URL :
 ``` http://localhost:10000/isTwoSidedPrime/{number} ```
 
 eg: http://localhost:10000/isTwoSidedPrime/23
